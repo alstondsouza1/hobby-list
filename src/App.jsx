@@ -3,6 +3,7 @@ import Hobbies from './components/Hobbies.jsx'
 
 import './App.css'
 
+// app component that uses the Hobbies component
 function App() {
   const hobbyList = [
     { name: 'Reading', description: 'Reading books of various genres.' },
@@ -10,6 +11,7 @@ function App() {
     { name: 'Cooking', description: 'Experimenting with new recipes.' },
   ];
 
+  // rendering the hobbies component
   return (
     <div>
       <h1>My Hobbies</h1>
